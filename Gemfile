@@ -1,3 +1,4 @@
+ruby '2.2.2'
  source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
@@ -5,6 +6,7 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'bundler', '~> 1.10.6'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
