@@ -120,7 +120,7 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    pg (0.18.4)
+    pg (0.18.2)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -221,7 +221,6 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.1.1.0)
-  bundler (~> 1.10.6)
   capybara
   coffee-rails (~> 4.1.0)
   factory_girl_rails
