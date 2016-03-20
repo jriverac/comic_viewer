@@ -2,7 +2,7 @@ ruby '2.2.2'
  source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
-gem 'pg'
+gem 'sqlite3'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
