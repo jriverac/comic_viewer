@@ -6,7 +6,7 @@ gem 'pg'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'bundler', '~> 1.10.6'
+gem 'bundler', '1.9.5'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
