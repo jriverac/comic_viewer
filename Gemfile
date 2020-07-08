@@ -1,36 +1,36 @@
-ruby '2.2.2'
+# ruby '~> 2.6.5'
 
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.4'
-gem 'pg'
-gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'bundler', '1.11.2'
-gem "haml-rails", "~> 0.9"
+gem 'jquery-rails'
+gem 'pg'
+gem 'rails' #, '4.2.4'
+gem 'turbolinks'
+# gem 'bundler', '~> 2.1.4'
+gem 'haml-rails', '~> 0.9'
 
 group :assets do
-  gem 'sass-rails', '~> 5.0'
   gem 'bootstrap-sass', '~> 3.1.1.0'
   gem 'coffee-rails', '~> 4.1.0'
+  gem 'sass-rails', '~> 5.0'
   gem 'uglifier', '>= 1.3.0'
 end
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'guard-rspec'
   gem 'nokogiri'#, '~> 1.6.6.2'
   gem 'rspec-rails'
-  gem "factory_girl_rails"
-  gem "capybara"
-  gem "guard-rspec"
-  gem 'faker'
 end
 
 group :development do
-  gem "binding_of_caller"
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'pry'
   gem 'pry-nav'
   gem 'spring'
