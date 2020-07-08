@@ -8,7 +8,7 @@ gem 'pg'
 gem 'rails', '~> 5.2.4.2'
 gem 'turbolinks'
 # gem 'bundler', '~> 2.1.4'
-gem 'haml-rails', '~> 0.9'
+gem 'haml-rails'#, '~> 0.9'
 
 group :assets do
   gem 'bootstrap-sass', '~> 3.4.1'
