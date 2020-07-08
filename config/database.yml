@@ -6,7 +6,7 @@
 #
 default: &default
   adapter: postgresql
-  username: comic_viewer
+  username: 'comic_viewer'
   pool: 5
   timeout: 5000
 
