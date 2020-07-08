@@ -11,7 +11,7 @@ gem 'turbolinks'
 gem 'haml-rails', '~> 0.9'
 
 group :assets do
-  gem 'bootstrap-sass', '~> 3.1.1.0'
+  gem 'bootstrap-sass', '~> 3.4.1'
   gem 'coffee-rails', '~> 4.1.0'
   gem 'sass-rails', '~> 5.0'
   gem 'uglifier', '>= 1.3.0'
