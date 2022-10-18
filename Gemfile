@@ -1,11 +1,9 @@
-# ruby '~> 2.6.5'
-
 source 'https://rubygems.org'
 
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails', '~> 5.2.4.2'
+gem 'rails', '~> 7'
 gem 'turbolinks'
 # gem 'bundler', '~> 2.1.4'
 gem 'haml-rails'#, '~> 0.9'
